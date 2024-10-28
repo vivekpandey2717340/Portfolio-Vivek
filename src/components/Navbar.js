@@ -2,9 +2,14 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="bg-gray-900 text-white py-4 shadow-md fixed w-full top-0 z-50 backdrop-blur">
-      <div className="container mx-auto flex justify-between items-center px-6">
-        <h1 className="text-2xl font-bold">Vivek Pandey</h1>
+    <header className="bg-white text-black py-4 shadow-md fixed w-full top-0 z-50 backdrop-blur">
+         <div className="container mx-auto flex justify-between items-center px-6">
+
+        <img 
+          src="/favicon16.png"
+          alt="Logo"
+          className="h-10" 
+        />
         
         <nav className="space-x-4">
           <a href="#about" className="hover:text-blue-500">About</a>
