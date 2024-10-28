@@ -17,23 +17,26 @@ const Skills = () => {
       <div className="container mx-auto">
         <h3 className="text-3xl font-semibold text-center mb-8">Skills</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* Technical Skills */}
           <div>
             <h4 className="text-lg font-bold">Technical Skills</h4>
-            <div className="flex flex-wrap-middle gap-4 mt-2">
+            <div className="flex flex-wrap justify-center gap-4 mt-2">
               {technicalSkills.map((skill) => (
                 <div key={skill.name} className="flex flex-col items-center">
                   <div className="flex items-center justify-center w-20 h-20 border border-gray-300 rounded-lg hover:bg-gray-200 transition duration-300 ease-in-out">
                     <img src={skill.logo} alt={skill.name} className="w-12 h-12" />
                   </div>
-                  <span className="mt-2 text-center">{skill.name}</span>
+                  <span className="mt-2 text-center text-sm md:text-base">{skill.name}</span>
                 </div>
               ))}
             </div>
           </div>
+
+          {/* Soft Skills */}
           <div>
             <h4 className="text-lg font-bold mt-8 lg:mt-0">Soft Skills</h4>
             <div className="mt-2">
-              <p>Communication, Decision-making, Problem-solving, Good Learning</p>
+              <p className="text-sm md:text-base">Communication, Decision-making, Problem-solving, Good Learning</p>
             </div>
           </div>
         </div>
