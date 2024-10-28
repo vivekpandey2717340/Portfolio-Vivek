@@ -1,0 +1,35 @@
+/* Hero.css */
+
+.image-container {
+    position: relative;
+    width: 150px; /* Adjust according to your image size */
+    height: 150px; /* Adjust according to your image size */
+    margin: 0 auto; /* Center the image */
+  }
+  
+  .moving-image {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Make the image responsive */
+    border-radius: 50%; /* Ensure the image is round */
+    position: absolute;
+    animation: spin-slow 5s linear infinite; /* Adjust timing as needed */
+  }
+  
+  @keyframes circular-motion {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(100px, 0); /* Move right */
+    }
+    50% {
+      transform: translate(100px, 100px); /* Move down-right */
+    }
+    75% {
+      transform: translate(0, 100px); /* Move down */
+    }
+    100% {
+      transform: translate(0, 0); /* Move back to starting point */
+    }
+  }
+  

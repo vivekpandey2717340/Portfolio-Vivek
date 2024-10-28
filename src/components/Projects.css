@@ -1,0 +1,22 @@
+/* Projects.css */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in webkit browsers */
+}
+
+.overflow-hidden {
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 20px; /* Adjust as needed */
+}
+/* Projects.css */
+.overflow-hidden::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
