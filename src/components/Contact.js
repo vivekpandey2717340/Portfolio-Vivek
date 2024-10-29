@@ -62,7 +62,7 @@ const Contact = () => {
         <button type="submit" className="bg-blue-800 text-white py-2 rounded hover:bg-blue-600">
           Send Message
         </button>
-        {isSent && <p className="text-green-500 text-center mt-4">Message sent successfully!</p>}
+        {isSent && <p className="text-green-500 text-center mt-4">Your valuable Message sent successfully!</p>}
       </form>
     </section>
   );
