@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         <h2 className="text-4xl font-bold mb-4">Hello, I'm Vivek Pandey</h2>
         <p className="text-lg font-medium mb-6">
-          Backend Developer based in Kathmandu, Nepal. Passionate about creating
+          FullStack Developer based in Kathmandu, Nepal. Passionate about creating
           efficient and scalable solutions.
         </p>
         <a
