@@ -12,7 +12,7 @@ const Projects = () => {
     {
       name: "Real Estate Website Backend",
       description: "Built comprehensive backend with property listings support",
-      link: "",
+      link: "https://suyogk.com.np/",
       image: "WhatsApp Image 2024-09-05 at 13.56.40_fe0f3f94.jpg"
     },
     {
